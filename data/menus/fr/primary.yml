@@ -12,5 +12,26 @@ items:
   target: ''
   kind: blank
   new_tab: false
-  children: []
+  children:
+  - title: Humeurs & opinions
+    target: "/actualites/humeurs-et-opinions/"
+    kind: category
+    new_tab: false
+    children: []
+    path: "/posts_categories/humeurs-et-opinions"
+    file: content/fr/posts_categories/humeurs-et-opinions/_index.html
+  - title: Musique
+    target: "/actualites/musique/"
+    kind: category
+    new_tab: false
+    children: []
+    path: "/posts_categories/musique"
+    file: content/fr/posts_categories/musique/_index.html
+  - title: Multimedia
+    target: "/actualites/multimedia/"
+    kind: category
+    new_tab: false
+    children: []
+    path: "/posts_categories/multimedia"
+    file: content/fr/posts_categories/multimedia/_index.html
 

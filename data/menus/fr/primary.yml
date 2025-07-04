@@ -34,4 +34,11 @@ items:
     children: []
     path: "/posts_categories/multimedia"
     file: content/fr/posts_categories/multimedia/_index.html
+  - title: Théâtre
+    target: "/actualites/theatre/"
+    kind: category
+    new_tab: false
+    children: []
+    path: "/posts_categories/theatre"
+    file: content/fr/posts_categories/theatre/_index.html
 

@@ -41,4 +41,39 @@ items:
     children: []
     path: "/posts_categories/theatre"
     file: content/fr/posts_categories/theatre/_index.html
+  - title: Expositions
+    target: "/actualites/expositions/"
+    kind: category
+    new_tab: false
+    children: []
+    path: "/posts_categories/expositions"
+    file: content/fr/posts_categories/expositions/_index.html
+  - title: Pratique
+    target: "/actualites/pratique/"
+    kind: category
+    new_tab: false
+    children: []
+    path: "/posts_categories/pratique"
+    file: content/fr/posts_categories/pratique/_index.html
+  - title: Cuisine
+    target: "/actualites/cuisine/"
+    kind: category
+    new_tab: false
+    children: []
+    path: "/posts_categories/cuisine"
+    file: content/fr/posts_categories/cuisine/_index.html
+- title: Perso
+  target: "/actualites/perso/"
+  kind: category
+  new_tab: false
+  children: []
+  path: "/posts_categories/perso"
+  file: content/fr/posts_categories/perso/_index.html
+- title: Voyage
+  target: "/actualites/voyage/"
+  kind: category
+  new_tab: false
+  children: []
+  path: "/posts_categories/voyage"
+  file: content/fr/posts_categories/voyage/_index.html
 

@@ -1,14 +1,14 @@
 ---
 breadcrumb_title: >-
-  Accueil
+  Jean-Jacques Birgé - Mon blog
 title: >-
-  Accueil
+  Jean-Jacques Birgé - Mon blog
 bodyclass: >-
    
 url: "/"
 slug: ""
 date: 2025-05-20T20:56:34+02:00
-lastmod: 2025-07-05T13:52:05+02:00
+lastmod: 2025-07-05T14:24:22+02:00
 meta:
   hugo:
     permalink: "/"
@@ -17,7 +17,7 @@ meta:
     slug: ""
   dates:
     created_at: 2025-05-20T20:56:34+02:00
-    updated_at: 2025-07-05T13:52:05+02:00
+    updated_at: 2025-07-05T14:24:22+02:00
     published_at: 2025-05-20T20:56:34+02:00
 search:
   id: "b8487738-561e-485d-aa85-c5edfe0906c7"
@@ -26,20 +26,20 @@ search:
   kind: "Communication::Website::Page::Localization"
   lang: "fr"
   title: >-
-    Accueil
+    Jean-Jacques Birgé - Mon blog
   summary: >-
-    
+    <p> --- 21e année ---<br>Créé en août 2005<br>Plus de 5900 articles<br>Chronique solidaire et militante<br>Non je ne suis pas journaliste</p>
   body: >-
-    <p>Mes derniers articles de blog </p>  <p> Amis </p>  <p> Collectifs amis </p>  <p> Projets et collections artistiques </p>
+    <p>Mes derniers billets  <br> Articles récents </p>  <p> Liens utiles - Marque-page  <br> Des personnes et leurs blogs à ne pas manquer ! </p>  <p> Collectifs amis </p>  <p> Projets et collections artistiques </p>
 
 breadcrumbs:
   - title: >-
-      Accueil
+      Jean-Jacques Birgé - Mon blog
 
 design:
   full_width: true
   toc:
-    present: false
+    present: true
     offcanvas: true
 
 
@@ -57,51 +57,70 @@ meta_description: >-
   
 
 summary: >-
-  
+  <p> --- 21e année ---<br>Créé en août 2005<br>Plus de 5900 articles<br>Chronique solidaire et militante<br>Non je ne suis pas journaliste</p>
 
 header_text: >-
   
 header_cta:
-  display: 
+  display: false
   label: >-
     
   target: ""
   external: false
 
 contents_reading_time:
-  seconds: 3
+  seconds: 6
   text: >-
     moins d'une minute
 contents:
   - kind: block
-    template: posts
+    template: title
     title: >-
-      Mes derniers articles de blog
+      Mes derniers billets
     slug: >-
-      mes-derniers-articles-de-blog
+      mes-derniers-billets
     ranks:
       base: 2
       self: 2
-      children: 3
     top:
       active: true
       title: 
         value: >-
-          Mes derniers articles de blog
+          Mes derniers billets
         heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: posts
+    title: >-
+      Articles récents
+    slug: >-
+      articles-recents
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Articles récents
+        heading: 3
         link: "/actualites/"
     data:
       mode: all
       all: true
-      layout: list
+      layout: carousel
       options:
         author: false
         categories: true
         date: true
-        image: false
-        reading_time: false
+        image: true
+        reading_time: true
         subtitle: true
-        summary: true
+        summary: false
 
       posts:
         - permalink: "/actualites/2025-06-19-au-grand-palais-mon-hit-parade-des-expos/"
@@ -158,44 +177,168 @@ contents:
           file: "content/fr/posts/2025/2025-05-30-pause-dune-semaine-1.html"
           name: >-
             Pause d'une semaine
-        - permalink: "/actualites/2025-05-26-dcouvertes-du-label-neuma-2/"
-          path: "/posts/2025/2025-05-26-dcouvertes-du-label-neuma-2"
-          slug: "dcouvertes-du-label-neuma-2"
-          file: "content/fr/posts/2025/2025-05-26-dcouvertes-du-label-neuma-2.html"
-          name: >-
-            Découvertes du label Neuma (2)
-        - permalink: "/actualites/2025-05-26-dcouvertes-du-label-neuma-1/"
-          path: "/posts/2025/2025-05-26-dcouvertes-du-label-neuma-1"
-          slug: "dcouvertes-du-label-neuma-1"
-          file: "content/fr/posts/2025/2025-05-26-dcouvertes-du-label-neuma-1.html"
-          name: >-
-            Découvertes du label Neuma (1)
-        - permalink: "/actualites/2025-05-24-drameorg-cit-en-rfrence/"
-          path: "/posts/2025/2025-05-24-drameorg-cit-en-rfrence"
-          slug: "drameorg-cit-en-rfrence"
-          file: "content/fr/posts/2025/2025-05-24-drameorg-cit-en-rfrence.html"
-          name: >-
-            Drame.org cité en référence
 
-      quantity: 12
+      quantity: 9
+
+
+  - kind: block
+    template: categories
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+    data:
+      layout: cards
+      description: >-
+        
+
+      options:
+        count: true
+        image: true
+        summary: true
+
+      category_kind: posts
+      taxonomy_id: 
+
+      categories:
+        - permalink: "/actualites/humeurs-et-opinions/"
+          path: "/posts_categories/humeurs-et-opinions"
+          slug: "humeurs-et-opinions"
+          file: "content/fr/posts_categories/humeurs-et-opinions/_index.html"
+          name: ""
+          count: 697
+        - permalink: "/actualites/musique/"
+          path: "/posts_categories/musique"
+          slug: "musique"
+          file: "content/fr/posts_categories/musique/_index.html"
+          name: ""
+          count: 1644
+        - permalink: "/actualites/multimedia/"
+          path: "/posts_categories/multimedia"
+          slug: "multimedia"
+          file: "content/fr/posts_categories/multimedia/_index.html"
+          name: ""
+          count: 517
+        - permalink: "/actualites/cinema-et-dvd/"
+          path: "/posts_categories/cinema-et-dvd"
+          slug: "cinema-et-dvd"
+          file: "content/fr/posts_categories/cinema-et-dvd/_index.html"
+          name: ""
+          count: 750
+        - permalink: "/actualites/theatre/"
+          path: "/posts_categories/theatre"
+          slug: "theatre"
+          file: "content/fr/posts_categories/theatre/_index.html"
+          name: ""
+          count: 51
+        - permalink: "/actualites/expositions/"
+          path: "/posts_categories/expositions"
+          slug: "expositions"
+          file: "content/fr/posts_categories/expositions/_index.html"
+          name: ""
+          count: 210
+        - permalink: "/actualites/pratique/"
+          path: "/posts_categories/pratique"
+          slug: "pratique"
+          file: "content/fr/posts_categories/pratique/_index.html"
+          name: ""
+          count: 275
+        - permalink: "/actualites/cuisine/"
+          path: "/posts_categories/cuisine"
+          slug: "cuisine"
+          file: "content/fr/posts_categories/cuisine/_index.html"
+          name: ""
+          count: 64
+        - permalink: "/actualites/perso/"
+          path: "/posts_categories/perso"
+          slug: "perso"
+          file: "content/fr/posts_categories/perso/_index.html"
+          name: ""
+          count: 529
+        - permalink: "/actualites/voyage/"
+          path: "/posts_categories/voyage"
+          slug: "voyage"
+          file: "content/fr/posts_categories/voyage/_index.html"
+          name: ""
+          count: 421
+        - permalink: "/actualites/roman-feuilleton/"
+          path: "/posts_categories/roman-feuilleton"
+          slug: "roman-feuilleton"
+          file: "content/fr/posts_categories/roman-feuilleton/_index.html"
+          name: ""
+          count: 94
+        - permalink: "/actualites/revelations-collection/"
+          path: "/posts_categories/revelations-collection"
+          slug: "revelations-collection"
+          file: "content/fr/posts_categories/revelations-collection/_index.html"
+          name: ""
+          count: 39
+        - permalink: "/actualites/allumes-du-jazz/"
+          path: "/posts_categories/allumes-du-jazz"
+          slug: "allumes-du-jazz"
+          file: "content/fr/posts_categories/allumes-du-jazz/_index.html"
+          name: ""
+          count: 71
+        - permalink: "/actualites/le-son-sur-limage/"
+          path: "/posts_categories/le-son-sur-limage"
+          slug: "le-son-sur-limage"
+          file: "content/fr/posts_categories/le-son-sur-limage/_index.html"
+          name: ""
+          count: 44
+        - permalink: "/actualites/perspectives-du-xxiie-siecle/"
+          path: "/posts_categories/perspectives-du-xxiie-siecle"
+          slug: "perspectives-du-xxiie-siecle"
+          file: "content/fr/posts_categories/perspectives-du-xxiie-siecle/_index.html"
+          name: ""
+          count: 32
+        - permalink: "/actualites/centenaire-de-jjb/"
+          path: "/posts_categories/centenaire-de-jjb"
+          slug: "centenaire-de-jjb"
+          file: "content/fr/posts_categories/centenaire-de-jjb/_index.html"
+          name: ""
+          count: 20
+
+
+  - kind: block
+    template: title
+    title: >-
+      Liens utiles - Marque-page
+    slug: >-
+      liens-utiles-marque-page
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Liens utiles - Marque-page
+        heading: 2
+    data:
+      layout: collapsed
 
 
   - kind: block
     template: persons
     title: >-
-      Amis
+      Des personnes et leurs blogs à ne pas manquer !
     slug: >-
-      amis
+      des-personnes-et-leurs-blogs-a-ne-pas-manquer
     ranks:
-      base: 2
-      self: 2
-      children: 3
+      base: 3
+      self: 3
+      children: 4
     top:
       active: true
       title: 
         value: >-
-          Amis
-        heading: 2
+          Des personnes et leurs blogs à ne pas manquer !
+        heading: 3
         link: "/equipe/categories/ami-e-s/"
     data:
       description: >-
@@ -324,15 +467,15 @@ contents:
     slug: >-
       collectifs-amis
     ranks:
-      base: 2
-      self: 2
-      children: 3
+      base: 3
+      self: 3
+      children: 4
     top:
       active: true
       title: 
         value: >-
           Collectifs amis
-        heading: 2
+        heading: 3
         link: "/organisations/categories/collectifs-et-groupes-amis/"
     data:
       layout: grid
@@ -432,15 +575,15 @@ contents:
     slug: >-
       projets-et-collections-artistiques
     ranks:
-      base: 2
-      self: 2
-      children: 3
+      base: 3
+      self: 3
+      children: 4
     top:
       active: true
       title: 
         value: >-
           Projets et collections artistiques
-        heading: 2
+        heading: 3
         link: "/organisations/categories/projets-et-collections-artistiques/"
     data:
       layout: grid

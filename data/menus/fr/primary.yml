@@ -118,7 +118,7 @@ items:
     children: []
     path: "/posts_categories/centenaire-de-jjb"
     file: content/fr/posts_categories/centenaire-de-jjb/_index.html
-- title: Mirroir Médiapart
+- title: Miroir Médiapart
   target: https://blogs.mediapart.fr/jean-jacques-birge/blog
   kind: url
   new_tab: true

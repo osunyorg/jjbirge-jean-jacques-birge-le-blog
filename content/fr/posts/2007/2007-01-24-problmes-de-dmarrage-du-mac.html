@@ -1,0 +1,275 @@
+---
+title: >-
+  Problèmes de démarrage du Mac
+subtitle: >-
+  
+bodyclass: >-
+   
+url: "/actualites/2007-01-24-problmes-de-dmarrage-du-mac/"
+slug: "problmes-de-dmarrage-du-mac"
+date: 2007-01-24T20:46:17+01:00
+lastmod: 2025-07-24T20:16:33+02:00
+meta:
+  hugo:
+    permalink: "/actualites/2007-01-24-problmes-de-dmarrage-du-mac/"
+    path: "/posts/2007/2007-01-24-problmes-de-dmarrage-du-mac"
+    file: "content/fr/posts/2007/2007-01-24-problmes-de-dmarrage-du-mac.html"
+    slug: "problmes-de-dmarrage-du-mac"
+  dates:
+    created_at: 2025-07-24T20:16:32+02:00
+    updated_at: 2025-07-24T20:16:33+02:00
+    published_at: 2007-01-24T20:46:17+01:00
+search:
+  id: "18a840ce-cc62-4453-8401-b15801614a90"
+  about_id: "d47592dc-e712-4923-a42f-ade778c60bab"
+  url: "/actualites/2007-01-24-problmes-de-dmarrage-du-mac/"
+  kind: "Communication::Website::Post::Localization"
+  lang: "fr"
+  title: >-
+    Problèmes de démarrage du Mac
+  summary: >-
+    
+  body: >-
+    <p>  <br>Mac OS X : à propos de l'emploi d'Utilitaire de disque et de fsck pour la maintenance du système de fichiers. Si votre ordinateur ne démarre pas normalement, peut-être devrez-vous recourir à un utilitaire de réparation de disque. Mac OS X en possède deux, Utilitaire de disque et fsck. Même si votre ordinateur démarre normalement vous pouvez les utiliser pour vérifier vos disques. Pour Mac OS X 10.4.3 ou ultérieure, lisez la section « À propos de la vérification dans Mac OS X 10.4.3 ou ultérieure » ci-dessous. Astuce  : Pour Mac OS X 10.4 Tiger ou version ultérieure, nous vous recommandons d'utiliser Utilitaire de disque plutôt que fsck quand c'est possible. Il peut arriver que des erreurs au niveau du système de fichiers empêchent l'ordinateur de démarrer normalement. Ce phénomène peut survenir après une extinction incorrecte, un redémarrage forcé ou une panne de courant. Les symptômes ci-dessous indiquent que l'emploi d'un utilitaire de réparation de disque est recommandé : Démarrage partiel avec ligne de commande L'ordinateur démarre partiellement, puis effectue une pause dans un environnement ligne de commande (en texte seul). Il est possible qu'un message de type "file system dirty, run fsck" s'affiche, suivi, en dessous, par une ligne de commande identifiée par le signe dièse (#). Les commandes saisies dans cet environnement s'inscrivent en regard de cette invite. Dans ce cas de figure, exécutez fsck directement sur la ligne de commande. Démarrage partiel du système, sans invite de ligne de commande. Le démarrage de l'ordinateur avorte avant l'écran d'ouverture de session ou, si cet écran s'affiche, la saisie du nom et du mot de passe utilisateur ne fait pas apparaître le bureau. Dans ces cas de figure, démarrez en mode mono-utilisateur. Essayez d'abord de démarrer, extensions désactivées Mac OS X version 10.2 ou ultérieure inclut une fonction de démarrage, extensions désactivées qui comporte une fonction pour vérifier et réparer les erreurs automatiquement. Si vous tournez sous Mac OS X 10.1.5 ou version antérieure du système d'exploitation, passez directement à la prochaine section. Le démarrage extensions désactivées permet de faire redémarrer l'ordinateur en utilisant une version réduite du logiciel système. Procédez comme suit : - Démarrez, extensions désactivées. - A l'issue de la procédure, faites redémarrer normalement l'ordinateur. Si le redémarrage s'opère correctement, toute autre procédure de dépannage est inutile, à moins que le problème ne resurgisse. Si le problème persiste, essayez ensuite Utilitaire de disque. Utilitaire de disque - Insérez le disc Mac OS X Install livré avec votre Mac, et faites redémarrer l'ordinateur en maintenant la touche C enfoncée.- Après avoir démarré à partir du disc, choisissez Utilitaire de disque dans le menu Installation. (Dans Mac OS X 10.4 ou version ultérieure il faut d'abord sélectionner une langue.) Important  : Ne cliquez pas sur Continuer au niveau du premier écran du programme d'installation. Sinon, vous devrez redémarrer pour accéder à Utilitaire de disque. - Sélectionnez l'onglet S.O.S. - Cliquez sur le triangle à gauche de l'icône de disque dur pour afficher le nom des volumes et des partitions de ce dernier. - Au besoin, sélectionnez votre volume Mac OS X. - Cliquez sur Réparer le disque. Astuce  : Il est recommandé de démarrer systématiquement à partir du CD/DVD pour employer Utilitaire de disque. Sinon Utilitaire de disque signalera à tort des erreurs disque sur le volume de démarrage. Utilisation de fsck L'utilitaire fsck permet de vérifier et de réparer un disque. Il s'exécute depuis la ligne de commande. Si démarrer avec extensions désactivées ou l'emploi d'Utilitaire de disque en démarrant à partir d'un disc rend l'utilisation de fsck superflue, fsck peut s'avérer indispensable dans certains cas. Exemples : - Votre CD ou DVD Mac OS X n'est pas immédiatement disponible. - Votre lecteur de CD-ROM n'est pas immédiatement disponible. - Votre Mac ne démarre pas extensions désactivées. Astuce  : Si votre disque est formaté en Mac OS étendu (journalisé), comme avec Mac OS X "Panther", vous n'aurez probablement pas besoin d'utilser fsck. Si vous employez fsck pour quelque raison, sachez que des messages d'erreur bénins peuvent apparaître. Si vous n'êtes pas sûr du format de votre disque, et vous ne pouvez pas démarrer à partir de ce disque pour vérifier, tapez : diskutil info / suivi de la touche Retour. Si "File System Journaled HFS+" s'affiche, c'est un volume journalisé. L'utilitaire fsck s'exécute depuis la ligne de commande. Il s'agit ici d'ouvrir une application en tapant une commande texte à l'invite (#) plutôt que d'utiliser le pointeur de la souris. Au nombre des interfaces ligne de commande figurent l'application Terminal (/Applications/Utilitaires) et le mode mono-utilisateur. Pour utiliser fsck : - Démarrez en mode mono-utilisateur. Remarque  : Au besoin, forcez le redémarrage de l'ordinateur, conformément aux instructions de dépannage fournies avec votre matériel. S'il s'agit d'un modèle de bureau, appuyez sur le bouton de réinitialisation, identifié par un triangle (s'il en est équipé) ou maintenez enfoncé le bouton d'alimentation pendant plusieures secondes. Sur un portable, utilisez la combinaison de touches Commande-Contrôle-Alimentation. Si cette méthode est inopérante, peut-être devez-vous réinitialiser le gestionnaire d'alimentation. - A l'invite, tapez : /sbin/fsck -y - Note : le clavier étant en configuration américaine à ce stade, tapez les signes / et - sur le pavé numérique. - Appuyez sur Retour. L'utilitaire fsck passe par cinq "phases" avant de renvoyer les données sur l'utilisation et la fragmentation du disque. Une fois la vérification terminée, si aucun problème n'a été détecté, le message suivant apparaît : The volume  appears to be OK. - Si fsck effectue une modification ou une réparation, ou encore résout un problème, le message suivant s'affiche : ***** FILE SYSTEM WAS MODIFIED ***** Important  : Si ce message s'affiche, tapez la commande /sbin/fsck -y jusqu'à le faire disparaître. Il est normal que l'ordinateur réclame plusieurs "passages" de fsck, les premières réparations pouvant générer des erreurs supplémentaires. Si fsck signale n'avoir détecté aucun problème, tapez : reboot suivi de la touche Retour. L'ordinateur redémarre normalement et vous autorise à ouvrir une session. À propos de la vérification dans Mac OS X 10.4.3 ou ultérieure Sous Mac OS X 10.4.3 ou ultérieur, l'Utilitaire de disque peut vérifier le disque (volume) de démarrage de votre ordinateur sans vous obliger à démarrer à partir d'un autre volume. Cette fonctionnalité est appelée « Vérification en direct » Elle peut être utilisée de trois façons. Option 1 : Vérifier le disque (volume) de démarrage avec Utilitaire de disque. Pour en savoir plus voir cet article. Notez que si l'Utilitaire de disque détecte un problème qui nécessite une réparation, vous devrez démarrer à partir de votre DVD ou CD Mac OS X Tiger et utiliser Utilitaire de disque sur ce disque pour effectuer les réparations. (Vous ne pouvez pas réparer votre volume de démarrage si votre ordinateur a été démarré à partir de celui-ci.) Option 2 (avancée)  : À l'invite, utiliser diskutil. - Démarrez l'ordinateur et ouvrez une session en tant qu'administrateur. - Ouvrez Terminal (/Applications/Utilitaires). - À l'invite, tapez la commande suivi de la touche Retour : diskutil verify /  Remarque  : Ne pas utiliser cette commande pour vérifier un disque qui n'a pas servi pour démarrer l'ordinateur. Les messages suivants peuvent s'afficher: Could not unmount disk for verification, attempting live verify Started verify/repair on volume disk0s3 Macintosh HD Checking HFS Plus volume. Checking Extents Overflow file. Checking Catalog file. Checking multi-linked files. Checking Catalog hierarchy. Checking Extended Attributes file. Checking volume bitmap. Checking volume information. The volume Macintosh HD appears to be OK. Mounting Disk Verify/repair finished on volume disk0s3 Macintosh HD Option 3 (avancée)  : À l'invite, utiliser fsck_hfs -l - Démarrez l'ordinateur et ouvrez une session en tant qu'administrateur. - Ouvrez Terminal (/Applications/Utilitaires). - À l'invite, tapez la commande suivi de la touche Retour afin de déterminer le filesytem ID: df -hl  - Cherchez des lignes de texte comme celles-ci: Filesystem Size Used Avail Capacity Mounted on /dev/disk0s3 37G 20G 17G 55% / /dev/disk0s5 37G 37G 641M 98% /Volumes/Storage  - Notez le premier nom de "disque" après /dev/, tel "disk0s3." C'est le filesystem ID de votre volume de démarrage. - À l'invite, tapez la commande suivi de la touche Retour : df -hl  - Tapez la commande suivante, ou "disk0s3" est le filesystem ID que vous avez noté dans l'étape 4, suivi de la touche Retour : sudo fsck_hfs -l /dev/disk0s3  - À l'invite, tapez votre mot de passe admin suivi de la touche Retour pour lancer la vérification. - Les messages suivants peuvent s'afficher: ** /dev/rdisk0s3 (NO WRITE) ** Root file system ** Checking HFS Plus volume. ** Checking Extents Overflow file. ** Checking Catalog file. ** Checking multi-linked files. ** Checking Catalog hierarchy. ** Checking Extended Attributes file. ** Checking volume bitmap. ** Checking volume information. ** The volume Macintosh HD appears to be OK. Complément d'information sur la syntaxe Ce complément d'information est destiné à ceux qui s'intéressent à la syntaxe des lignes de commande UNIX. - Option -y : Elle indique à fsck que vous répondez "oui" à l'ensemble des questions sur la résolution, la réparation ou la sauvegarde des informations. Cette méthode est optimale car le fait de répondre "non" à une question provoque l'arrêt de fsck. Il est impossible d'établir que toutes les réparations nécessaires ont bien été effectuées tant que fsck n'a pas produit son rapport final. - Option -f : Oblige fsck à vérifier un disque dit "propre". L'illustration est de  Dave McKean  (voir  billet du 21 janvier )</p>  <p> Commentaires  <br>   <br>Ecrit par : hs   Justement, pas plus tard qu'hier, je l'ai consulté celui d'avril 2006, imprimé et rangé là où je le cherchais (un miracle) et comme ça je pense à toi (avec reconnaissance comme dab)! Bisous à la maisonnée Hélène</p>  <p>   <br>Ecrit par : Rumeur   'dans mac os x 10.4 ou version ulterieure il faut d'abord selectionner une langue' comment ça,? :)</p>  <p>   <br>Ecrit par : Jean-Jacques Birgé   Le programme d'installation du système vous demande de choisir la langue dès le premier écran. Evitez le coréen, ce n'est pas facile de revenir ensuite en arrière si vous ne le lisez pas !</p>  <p>   <br>Ecrit par : Laurent   Bonjour, Je suis à mon 30ieme /sbin/fsck -y et toujours le meme message file was modified !! Est ce normal ?</p>  <p>   <br>Ecrit par : casino   Mais je résoudre ce problème parce que, tout oublier vous ne pouvez pas!</p>
+
+breadcrumbs:
+  - title: >-
+      Jean-Jacques Birgé - Mon blog
+    path: "/"
+  - title: >-
+      Actualités
+    path: "/actualites/"
+  - title: >-
+      Problèmes de démarrage du Mac
+
+design:
+  full_width: false
+  toc:
+    present: false
+    offcanvas: false
+
+translationKey: communication-website-post-d47592dc-e712-4923-a42f-ade778c60bab
+
+image:
+  id: "744a2579-dd11-464a-8c00-07391b4ed425"
+  alt: ""
+  credit: >-
+    
+
+
+meta_description: >-
+  
+
+summary: >-
+  
+
+header_cta:
+  display: false
+  label: >-
+    
+  target: ""
+  external: false
+posts_categories:
+  - "pratique"
+taxonomies:
+  - name: >-
+      Catégories
+    slug: ""
+    path: ""
+    categories:
+      - permalink: "/actualites/pratique/"
+        path: "/posts_categories/pratique"
+        slug: "pratique"
+        file: "content/fr/posts_categories/pratique/_index.html"
+        name: >-
+          Pratique
+
+
+contents_reading_time:
+  seconds: 486
+  text: >-
+    8 minutes
+contents:
+  - kind: block
+    template: chapter
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 2
+    top:
+      active: false
+    data:
+      layout: no_background
+      text: >-
+        <p><strong>Mac OS X : à propos de l'emploi d'Utilitaire de disque et de fsck pour la maintenance du système de fichiers.</strong><br><br>Si votre ordinateur ne démarre pas normalement, peut-être devrez-vous recourir à un utilitaire de réparation de disque. Mac OS X en possède deux, Utilitaire de disque et fsck. Même si votre ordinateur démarre normalement vous pouvez les utiliser pour vérifier vos disques. Pour Mac OS X 10.4.3 ou ultérieure, lisez la section « À propos de la vérification dans Mac OS X 10.4.3 ou ultérieure » ci-dessous.<br><br><strong>Astuce</strong> : Pour Mac OS X 10.4 Tiger ou version ultérieure, nous vous recommandons d'utiliser Utilitaire de disque plutôt que fsck quand c'est possible.<br><br>Il peut arriver que des erreurs au niveau du système de fichiers empêchent l'ordinateur de démarrer normalement. Ce phénomène peut survenir après une extinction incorrecte, un redémarrage forcé ou une panne de courant.<br><br>Les symptômes ci-dessous indiquent que l'emploi d'un utilitaire de réparation de disque est recommandé :<br><br><strong>Démarrage partiel avec ligne de commande</strong><br>L'ordinateur démarre partiellement, puis effectue une pause dans un environnement ligne de commande (en texte seul). Il est possible qu'un message de type "file system dirty, run fsck" s'affiche, suivi, en dessous, par une ligne de commande identifiée par le signe dièse (#). Les commandes saisies dans cet environnement s'inscrivent en regard de cette invite. Dans ce cas de figure, exécutez fsck directement sur la ligne de commande.<br><br><strong>Démarrage partiel du système, sans invite de ligne de commande.</strong><br>Le démarrage de l'ordinateur avorte avant l'écran d'ouverture de session ou, si cet écran s'affiche, la saisie du nom et du mot de passe utilisateur ne fait pas apparaître le bureau. Dans ces cas de figure, démarrez en mode mono-utilisateur.<br><br><strong>Essayez d'abord de démarrer, extensions désactivées</strong><br><br>Mac OS X version 10.2 ou ultérieure inclut une fonction de démarrage, extensions désactivées qui comporte une fonction pour vérifier et réparer les erreurs automatiquement. Si vous tournez sous Mac OS X 10.1.5 ou version antérieure du système d'exploitation, passez directement à la prochaine section. Le démarrage extensions désactivées permet de faire redémarrer l'ordinateur en utilisant une version réduite du logiciel système. Procédez comme suit :<br>- Démarrez, extensions désactivées.<br>- A l'issue de la procédure, faites redémarrer normalement l'ordinateur.<br>Si le redémarrage s'opère correctement, toute autre procédure de dépannage est inutile, à moins que le problème ne resurgisse. Si le problème persiste, essayez ensuite Utilitaire de disque.<br><br><strong>Utilitaire de disque</strong><br><br>- Insérez le disc Mac OS X Install livré avec votre Mac, et faites redémarrer l'ordinateur en maintenant la touche C enfoncée.- Après avoir démarré à partir du disc, choisissez Utilitaire de disque dans le menu Installation. (Dans Mac OS X 10.4 ou version ultérieure il faut d'abord sélectionner une langue.)<br><strong>Important</strong> : Ne cliquez pas sur Continuer au niveau du premier écran du programme d'installation. Sinon, vous devrez redémarrer pour accéder à Utilitaire de disque.<br>- Sélectionnez l'onglet S.O.S.<br>- Cliquez sur le triangle à gauche de l'icône de disque dur pour afficher le nom des volumes et des partitions de ce dernier.<br>- Au besoin, sélectionnez votre volume Mac OS X.<br>- Cliquez sur Réparer le disque.<br><br><strong>Astuce</strong> : Il est recommandé de démarrer systématiquement à partir du CD/DVD pour employer Utilitaire de disque. Sinon Utilitaire de disque signalera à tort des erreurs disque sur le volume de démarrage.<br><br><strong>Utilisation de fsck</strong><br><br>L'utilitaire fsck permet de vérifier et de réparer un disque. Il s'exécute depuis la ligne de commande. Si démarrer avec extensions désactivées ou l'emploi d'Utilitaire de disque en démarrant à partir d'un disc rend l'utilisation de fsck superflue, fsck peut s'avérer indispensable dans certains cas. Exemples :<br>- Votre CD ou DVD Mac OS X n'est pas immédiatement disponible.<br>- Votre lecteur de CD-ROM n'est pas immédiatement disponible.<br>- Votre Mac ne démarre pas extensions désactivées.<br><br><strong>Astuce</strong> : Si votre disque est formaté en Mac OS étendu (journalisé), comme avec Mac OS X "Panther", vous n'aurez probablement pas besoin d'utilser fsck. Si vous employez fsck pour quelque raison, sachez que des messages d'erreur bénins peuvent apparaître.<br>Si vous n'êtes pas sûr du format de votre disque, et vous ne pouvez pas démarrer à partir de ce disque pour vérifier, tapez : diskutil info / suivi de la touche Retour.<br>Si "File System Journaled HFS+" s'affiche, c'est un volume journalisé.<br><br>L'utilitaire fsck s'exécute depuis la ligne de commande. Il s'agit ici d'ouvrir une application en tapant une commande texte à l'invite (#) plutôt que d'utiliser le pointeur de la souris. Au nombre des interfaces ligne de commande figurent l'application Terminal (/Applications/Utilitaires) et le mode mono-utilisateur. Pour utiliser fsck :<br>- Démarrez en mode mono-utilisateur.<br><strong>Remarque</strong> : Au besoin, forcez le redémarrage de l'ordinateur, conformément aux instructions de dépannage fournies avec votre matériel. S'il s'agit d'un modèle de bureau, appuyez sur le bouton de réinitialisation, identifié par un triangle (s'il en est équipé) ou maintenez enfoncé le bouton d'alimentation pendant plusieures secondes. Sur un portable, utilisez la combinaison de touches Commande-Contrôle-Alimentation. Si cette méthode est inopérante, peut-être devez-vous réinitialiser le gestionnaire d'alimentation.<br><br>- A l'invite, tapez : /sbin/fsck -y<br>- Note : le clavier étant en configuration américaine à ce stade, tapez les signes / et - sur le pavé numérique.<br>- Appuyez sur Retour. L'utilitaire fsck passe par cinq "phases" avant de renvoyer les données sur l'utilisation et la fragmentation du disque. Une fois la vérification terminée, si aucun problème n'a été détecté, le message suivant apparaît :<br>The volume &lt;nom du volume&gt; appears to be OK.<br>- Si fsck effectue une modification ou une réparation, ou encore résout un problème, le message suivant s'affiche :<br><br><br>***** FILE SYSTEM WAS MODIFIED *****<br><br><strong>Important</strong> : Si ce message s'affiche, tapez la commande /sbin/fsck -y jusqu'à le faire disparaître. Il est normal que l'ordinateur réclame plusieurs "passages" de fsck, les premières réparations pouvant générer des erreurs supplémentaires.<br><br>Si fsck signale n'avoir détecté aucun problème, tapez : reboot suivi de la touche Retour.<br>L'ordinateur redémarre normalement et vous autorise à ouvrir une session.<br><br><strong>À propos de la vérification dans Mac OS X 10.4.3 ou ultérieure</strong><br><br>Sous Mac OS X 10.4.3 ou ultérieur, l'Utilitaire de disque peut vérifier le disque (volume) de démarrage de votre ordinateur sans vous obliger à démarrer à partir d'un autre volume. Cette fonctionnalité est appelée « Vérification en direct » Elle peut être utilisée de trois façons.<br><br><strong>Option 1</strong>: Vérifier le disque (volume) de démarrage avec Utilitaire de disque. Pour en savoir plus voir cet article. Notez que si l'Utilitaire de disque détecte un problème qui nécessite une réparation, vous devrez démarrer à partir de votre DVD ou CD Mac OS X Tiger et utiliser Utilitaire de disque sur ce disque pour effectuer les réparations. (Vous ne pouvez pas réparer votre volume de démarrage si votre ordinateur a été démarré à partir de celui-ci.)<br><br><strong>Option 2 (avancée)</strong> : À l'invite, utiliser diskutil.<br><br>- Démarrez l'ordinateur et ouvrez une session en tant qu'administrateur.<br>- Ouvrez Terminal (/Applications/Utilitaires).<br>- À l'invite, tapez la commande suivi de la touche Retour : diskutil verify / <br><strong>Remarque</strong> : Ne pas utiliser cette commande pour vérifier un disque qui n'a pas servi pour démarrer l'ordinateur.<br><br>Les messages suivants peuvent s'afficher:<br><br>Could not unmount disk for verification, attempting live verify Started verify/repair on volume disk0s3 Macintosh HD Checking HFS Plus volume. Checking Extents Overflow file. Checking Catalog file. Checking multi-linked files. Checking Catalog hierarchy. Checking Extended Attributes file. Checking volume bitmap. Checking volume information. The volume Macintosh HD appears to be OK. Mounting Disk Verify/repair finished on volume disk0s3 Macintosh HD<br><br><strong>Option 3 (avancée)</strong> : À l'invite, utiliser fsck_hfs -l<br><br>- Démarrez l'ordinateur et ouvrez une session en tant qu'administrateur.<br>- Ouvrez Terminal (/Applications/Utilitaires).<br>- À l'invite, tapez la commande suivi de la touche Retour afin de déterminer le filesytem ID: df -hl <br>- Cherchez des lignes de texte comme celles-ci: Filesystem Size Used Avail Capacity Mounted on /dev/disk0s3 37G 20G 17G 55% / /dev/disk0s5 37G 37G 641M 98% /Volumes/Storage <br>- Notez le premier nom de "disque" après /dev/, tel "disk0s3." C'est le filesystem ID de votre volume de démarrage.<br>- À l'invite, tapez la commande suivi de la touche Retour : df -hl <br>- Tapez la commande suivante, ou "disk0s3" est le filesystem ID que vous avez noté dans l'étape 4, suivi de la touche Retour : sudo fsck_hfs -l /dev/disk0s3 <br>- À l'invite, tapez votre mot de passe admin suivi de la touche Retour pour lancer la vérification.<br>- Les messages suivants peuvent s'afficher: ** /dev/rdisk0s3 (NO WRITE) ** Root file system ** Checking HFS Plus volume. ** Checking Extents Overflow file. ** Checking Catalog file. ** Checking multi-linked files. ** Checking Catalog hierarchy. ** Checking Extended Attributes file. ** Checking volume bitmap. ** Checking volume information. ** The volume Macintosh HD appears to be OK.<br><br><strong>Complément d'information sur la syntaxe</strong><br><br>Ce complément d'information est destiné à ceux qui s'intéressent à la syntaxe des lignes de commande UNIX.<br>- Option -y : Elle indique à fsck que vous répondez "oui" à l'ensemble des questions sur la résolution, la réparation ou la sauvegarde des informations. Cette méthode est optimale car le fait de répondre "non" à une question provoque l'arrêt de fsck. Il est impossible d'établir que toutes les réparations nécessaires ont bien été effectuées tant que fsck n'a pas produit son rapport final.<br>- Option -f : Oblige fsck à vérifier un disque dit "propre".<br><br>L'illustration est de <a href="http://www.mckean-art.co.uk/">Dave McKean</a> (voir <a href="http://www.drame.org/blog/index.php?2007/01/21/398-mirrormask-le-cinema-des-beaux-reves">billet du 21 janvier</a>)</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: title
+    title: >-
+      Commentaires
+    slug: >-
+      commentaires
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Commentaires
+        heading: 2
+    data:
+      layout: collapsed
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 3
+    top:
+      active: false
+    data:
+      layout: no_background
+      text: >-
+        <p>Ecrit par : hs <br> Justement, pas plus tard qu'hier, je l'ai consulté celui d'avril 2006, imprimé et rangé là où je le cherchais (un miracle) et comme ça je pense à toi (avec reconnaissance comme dab)!<br>Bisous à la maisonnée<br>Hélène</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 3
+    top:
+      active: false
+    data:
+      layout: no_background
+      text: >-
+        <p>Ecrit par : Rumeur <br> 'dans mac os x 10.4 ou version ulterieure il faut d'abord selectionner une langue' comment ça,? :)</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 3
+    top:
+      active: false
+    data:
+      layout: no_background
+      text: >-
+        <p>Ecrit par : Jean-Jacques Birgé <br> Le programme d'installation du système vous demande de choisir la langue dès le premier écran. Evitez le coréen, ce n'est pas facile de revenir ensuite en arrière si vous ne le lisez pas !</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 3
+    top:
+      active: false
+    data:
+      layout: no_background
+      text: >-
+        <p>Ecrit par : Laurent <br> Bonjour,<br><br>Je suis à mon 30ieme /sbin/fsck -y et toujours le meme message file was modified !!<br>Est ce normal ?</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 3
+    top:
+      active: false
+    data:
+      layout: no_background
+      text: >-
+        <p>Ecrit par : casino <br> Mais je résoudre ce problème parce que, tout oublier vous ne pouvez pas!</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+
+---
